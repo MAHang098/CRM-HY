@@ -1,0 +1,223 @@
+.ayui-container .nav-logo img {
+    height: 80px;
+}
+
+.layui-row .layui-col-sm6 .content:hover {
+    background-color: rgb(251, 170, 24);
+}
+
+
+/* 服务提供 */
+
+.main-product p.title {
+    line-height: 40px;
+}
+
+.main-product .layui-container .description-server {
+    margin-top: 38px;
+    margin-bottom: 60px;
+}
+
+.main-product .layui-container .description-server p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    line-height: 46px;
+}
+
+.main-product2 .content .description-product2 {
+    margin-top: 30px;
+}
+
+.main-product2 .content p.label {
+    font-size: 14px;
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+    line-height: 26px;
+}
+
+.main-product2 .content p.label2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.layui-col-sm6 .content .xiala {
+    margin-top: 72px;
+    margin-bottom: 32px;
+}
+
+.layui-col-sm6 .content .xiala p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-product p {
+    color: rgb(0, 0, 0);
+}
+
+.main-product {
+    background-color: rgb(236, 236, 236);
+}
+
+.main-product2 {
+    background: url(../img/bg_xiantiao.png);
+}
+
+.main-product2 .content {
+    padding: 30px 18px 0 18px;
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+
+/* 热门产品 */
+
+.main-pd {
+    padding-top: 90px;
+    padding-bottom: 1px;
+    background-color: rgb(236, 236, 236);
+}
+
+.main-pd p.title {
+    line-height: 40px;
+    color: rgb(52, 52, 52);
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+
+.main-pd .layui-container img {
+    text-align: center;
+    max-width: 100%;
+}
+
+
+/* 产品轮播图 */
+
+.main-pd .img img.active {
+    display: inline-block;
+}
+
+.main-pd .img img {
+    display: none;
+}
+
+.main-pd .button div {
+    position: absolute;
+    user-select: none;
+    top: 50%;
+    margin-top: -30px;
+    width: 50px;
+    height: 60px;
+    background-color: rgb(236, 236, 236);
+    color: rgb(51, 51, 51);
+    font-size: 36px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.main-pd .button #left-btn {
+    left: -70px;
+}
+
+.main-pd .button #right-btn {
+    right: -70px;
+}
+
+.main-pd .button div:hover {
+    cursor: pointer;
+    color: orange;
+}
+
+.main-pd .circle {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -90px;
+    width: 180px;
+    height: 20px;
+    /* border:1px solid red; */
+}
+
+.main-pd .circle div {
+    box-sizing: border-box;
+    float: left;
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgb(180, 180, 180);
+    border-radius: 50%;
+    background-color: rgb(180, 180, 180);
+}
+
+.main-pd .circle div:not(:last-child) {
+    margin-right: 20px;
+}
+
+.main-pd .circle div.on {
+    border-color: rgb(51, 51, 51);
+    background-color: rgb(51, 51, 51);
+}
+
+
+/* 案例展示 */
+
+.main-case {
+    padding-top: 90px;
+    padding-bottom: 1px;
+    background-color: rgb(236, 236, 236);
+}
+
+.main-case p.title {
+    line-height: 40px;
+    color: rgb(52, 52, 52);
+    font-size: 32px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.main-case .layui-container img {
+    text-align: center;
+    max-width: 100%;
+}
+
+
+/* 案例展示图片 */
+
+.main-case p {
+    color: rgb(0, 0, 0);
+}
+
+.main-case {
+    background-color: rgb(236, 236, 236);
+}
+
+.main-case .content {
+    background-color: #fff;
+}
+
+.main-case p.title {
+    color: rgb(52, 52, 52);
+    font-size: 32px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.main-case .content .title-case {
+    width: 280px;
+    height: 62px;
+    background-color: rgb(87, 87, 87);
+}
+
+.main-case .content .title-case p.label {
+    color: white;
+    line-height: 62px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-case .content img {
+    width: 280px;
+}

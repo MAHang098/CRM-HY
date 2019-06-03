@@ -1,0 +1,38 @@
+/* 总描述 */
+
+.p-description .p-description-inner .product-description h2 {
+    color: rgb(208, 142, 24);
+    text-align: center;
+    margin-bottom: 46px;
+    margin-top: 150px;
+}
+
+.p-description .p-description-inner .product-description h2:nth-child(2) {
+    margin-top: -30px;
+}
+
+.p-description .p-description-inner .henggang {
+    display: inline-block;
+    width: 686px;
+    height: 5px;
+    margin-left: 75px;
+    background-color: rgb(251, 170, 24);
+}
+
+.p-description .p-description-inner .product-description h3 {
+    font-size: 30px;
+    margin-left: 77px;
+    margin-top: 41px;
+}
+
+.p-description .p-description-inner .product-description p:nth-child(1) {
+    font-size: 30px;
+    font-weight: 30px;
+}
+
+.p-description .p-description-inner .product-description p {
+    padding: 0 77px;
+    margin: 18px 0;
+    font-size: 18px;
+    font-weight: bold;
+}

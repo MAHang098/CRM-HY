@@ -1,0 +1,51 @@
+.tabIntro .content h2 {
+    font-size: 38px;
+    text-align: center;
+    color: #fff;
+}
+
+.tabIntro .content .henggang {
+    width: 80px;
+    height: 4px;
+    margin: 30px auto;
+    background-color: #fff;
+}
+
+.tabIntro .content p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.tabIntro .bg-intro {
+    background-color: rgb(17, 74, 124);
+}
+
+.tabIntro .intro2 {
+    padding: 0 50px;
+    height: 700px;
+    background-color: rgb(233, 241, 247);
+}
+
+.tabIntro .intro2 h3:nth-child(1) {
+    font-size: 16px;
+    padding-top: 80px;
+    margin-bottom: 10px;
+}
+
+.tabIntro .intro2 p {
+    font-size: 16px;
+    margin-top: 47px;
+}
+
+.tabIntro .intro2 img {
+    margin-top: 40px;
+}
+
+.tabJob .content .tech-solu {
+    font-size: 20px;
+    line-height: 60px;
+    color: #8d8d8d;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

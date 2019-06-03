@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>网络公司-关于</title>
+    <link rel="stylesheet" href="./res/layui/css/layui.css">
+    <link rel="stylesheet" href="./res/static/css/index.css">
+    <link rel="stylesheet" href="./res/static/css/productContent.css">
+</head>
+
+<body>
+    <!-- nav部分 -->
+    <div class="nav">
+        <div class="layui-container">
+            <!-- 公司logo -->
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="./img/index/logo.png" alt="网络公司" style="height: 75px">
+                </a>
+            </div>
+            <div class="nav-list">
+                <button>
+          <span></span><span></span><span></span>
+        </button>
+                <ul class="layui-nav" lay-filter="">
+                    <li class="layui-nav-item layui-this"><a href="product.html">产品</a></li>
+                    <li class="layui-nav-item"><a href="news.html">公司新闻</a></li>
+                    <li class="layui-nav-item"><a href="case.html">解决方案</a></li>
+                    <li class="layui-nav-item"><a href="about.html">关于我们</a></li>
+                    <li class="layui-nav-item"><a href="./after_sale.html">售后与支持</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- main部分 -->
+    <div class="main-about">
+        <div class="layui-container">
+            <!-- 总描述 -->
+            <div class="p-description">
+                <div class="p-description-inner">
+                    <div class="product-description">
+                        <h2>海思hi3518ev200开发板</h2>
+                        <h2>软件：</h2>
+                        <h3>处理器内核:</h3>
+                        <p>1. 提供HI3518EV200的板子</p>
+                        <p>板子仅供参考使用，如果自己做板请参考海思原厂的PCB和原理图。</p>
+                        <p>2. 赠送调试通过的RTMP源码</p>
+                        <p>3. 赠送调试通过的RTSP源码。</p>
+                        <p>4. 赠送本开发板运行的UBOOT源码（方便用户底层定制），内核源码，MPP多媒体的例子源码（视频编码，音频编码）。</p>
+                        <p>5 . 赠送海思SDK，SDK中包括UBOOT源码，内核源码，多媒体的例子（视频编码，音频编码）。提供更改后的内核和文件系统，MPP视频编码程序源码。</p>
+                        <p>6. 赠送WIFI驱动源码和使用说明。</p>
+                        <p>7. 提供搭建好开发环境所需虚拟机，用户可以拿来直接进行开发，省去新手配置开发环境时间。</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer部分 -->
+    <div class="footer">
+        <div class="layui-container">
+            <p class="footer-web">
+                <a href="./product.html">产品</a>
+                <a href="./news.html">公司新闻</a>
+                <a href="./case.html">解决方案</a>
+                <a href="./about.html">关于我们</a>
+                <a href="./after_sale.html">售后与支持</a>
+            </p>
+            <div class="layui-row footer-contact">
+                <div class="layui-col-sm2 layui-col-lg1"></div>
+                <div class="layui-col-sm10 layui-col-lg11">
+                    <div class="layui-row">
+                        <div class="layui-col-sm6 layui-col-md8 layui-col-lg9">
+                            <p class="contact-top"><img src="./img/index/icon_phone.png" alt=""></i>&nbsp;0757-88792356&nbsp;&nbsp;(9:00-18:00)</br>
+                                <img src="./img/index/icon_email.png" alt=""></i>&nbsp;info@wayin-tech.com&nbsp;&nbsp;(9:00-18:00)</p>
+                            <p class="contact-top"><img src="./img/index/icon_website.png" alt=""></i>&nbsp;http://www.wayin-tech.com&nbsp;&nbsp;(9:00-18:00)</br>
+                                <img src="./img/index/icon_location.png" alt=""></i>&nbsp;广东省佛山市禅城区智慧新城11栋3a</span>
+                            </p>
+
+                        </div>
+                        <div class="layui-col-sm6 layui-col-md4 layui-col-lg3">
+                            <p class="contact-bottom"><span class="right"></br>佛山市汇盈讯科智能科技有限公司 版权所有</br>Copyright&nbsp;©&nbsp;2018-2019&nbsp;&nbsp;粤ICP&nbsp;备19034920号-1 </span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./res/layui/layui.js"></script>
+    <!--[if lt IE 9]>
+  <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+  <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <script>
+        layui.config({
+            base: './res/static/js/'
+        }).use('firm');
+    </script>
+</body>
+
+</html>
